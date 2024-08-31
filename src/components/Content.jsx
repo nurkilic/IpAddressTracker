@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import arrow from "../images/icon-arrow.svg";
+import arrow from "../assets/images/icon-arrow.svg";
 
 const Content = ({ data, getLocationByIp }) => {
   const [valueIp, setValueIp] = useState("");

@@ -1,8 +1,8 @@
 import axios from "axios";
 import "./App.css";
-import Content from "./assets/components/Content";
-import Header from "./assets/components/Header";
-import Leaflet from "./assets/components/Leaflet";
+import Content from "./components/Content";
+import Header from "./components/Header";
+import Leaflet from "./components/Leaflet";
 import { useState } from "react";
 
 function App() {
