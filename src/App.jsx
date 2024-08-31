@@ -4,7 +4,6 @@ import Content from "./assets/components/Content";
 import Header from "./assets/components/Header";
 import Leaflet from "./assets/components/Leaflet";
 import { useState } from "react";
-import Deneme from "./assets/components/deneme";
 
 function App() {
   const startingIp = {
@@ -71,7 +70,6 @@ function App() {
   };
   return (
     <div className="h-screen relative min-w-72">
-      {/* <Deneme data={data} getLocationByIp={getLocationByIp} /> */}
       <Content data={data} getLocationByIp={getLocationByIp} />
       <Header />
       <Leaflet data={data} />
