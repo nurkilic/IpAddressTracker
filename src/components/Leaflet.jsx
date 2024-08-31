@@ -8,7 +8,7 @@ const Leaflet = ({ data }) => {
     }
 
     mapRef.current = L.map("map").setView(
-      [data.location.lat, data.location.lng],
+      [data.location.lat +0.0065, data.location.lng],
       15
     );
     L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {

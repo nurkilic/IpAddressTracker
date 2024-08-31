@@ -18,7 +18,7 @@ const Content = ({ data, getLocationByIp }) => {
           value={valueIp}
           type="text"
           placeholder="Search for any IP address or domain"
-          className="rounded-l-xl p-4 w-[550px] "
+          className="rounded-l-xl p-5 w-[550px] "
           onChange={(e) => setValueIp(e.target.value)}
         />
         <div
@@ -30,7 +30,7 @@ const Content = ({ data, getLocationByIp }) => {
       </div>
       <div className="min-h-52 w-5/6 bg-white z-50 relative rounded-xl shadow-md mt-7 flex py-8 max-lg:flex-col max-lg:justify-center max-lg:w-auto max-lg:items-center max-lg:text-center  ">
         <div className="flex flex-col borderright w-1/4 pl-10 max-lg:items-center max-lg:justify-center">
-          <h4 className="max-lg:mt-4 ">IP Address</h4>
+          <h4 className=" ">IP Address</h4>
           <p className="">{data.ip}</p>
         </div>
         <div className="flex flex-col borderright  w-1/4 pl-10 max-lg:items-center max-lg:justify-center ">
